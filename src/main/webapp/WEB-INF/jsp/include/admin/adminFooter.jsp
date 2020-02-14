@@ -2,8 +2,7 @@
 	pageEncoding="UTF-8" isELIgnored="false"%>
 
 
-<div class="footer">
-</div>
+<div class="footer"> All Rights for Beacon Software </div>
 
 
 </body>

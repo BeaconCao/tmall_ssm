@@ -3,6 +3,7 @@ package com.beacon.tmall.controller;
 
 import com.beacon.tmall.pojo.Category;
 import com.beacon.tmall.service.CategoryService;
+import com.beacon.tmall.util.Page;
 import org.omg.CORBA.PRIVATE_MEMBER;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -21,7 +22,6 @@ public class CategoryController {
 
         List<Category> cs = categoryService.list();
         model.addAttribute("cs", cs);
-
         return "admin/listCategory";
     }
 
